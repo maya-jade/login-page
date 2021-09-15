@@ -10,7 +10,7 @@ a:visited {
 }
 
 img {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .container {
@@ -57,8 +57,8 @@ img {
     background-color: #2ca361;
     color: white;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 1rem;
     border: none;
 }
@@ -81,9 +81,9 @@ img {
 .socials {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 30vh;
     margin: auto;
-
+    white-space: nowrap;
 }
 
 a.fb-login {
@@ -105,11 +105,7 @@ a.gg-login {
     background-color: rgb(66, 133, 244);
 }
 
-.separator {
-    margin-bottom: 10px;
-}
-
-@media all and (max-width: 890px) {
+@media all and (max-width: 1000px) {
     .container {
         display: flex;
         flex-wrap: wrap;
